@@ -9,7 +9,7 @@
 
 body
 {
-    background: linear-gradient(#280b41, #660087)
+    background: linear-gradient(#280b41, #280b41)
 }
 
 .nav 
@@ -75,7 +75,7 @@ section::before
     margin-top: -130px;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, #660087, transparent);
+    background: linear-gradient(to top, #280b41, transparent);
     z-index: 1000;
 }
 
@@ -116,7 +116,7 @@ section img
 .sec {
     position: relative;
     padding: 40px 20px;
-    background: #660087;
+    background: #280b41;
 }
 
 .sec h2 {
@@ -133,7 +133,7 @@ section img
 
 footer
 {
-    background-color: #1d938f; 
+    background-color: #660087; 
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -144,12 +144,12 @@ footer a
 {
     margin: 0 15px; 
     text-decoration: none; 
-    color: #660087;
+    color: #280b41;
 }
 
 footer nav a 
 {
-   color: #660087;
+   color: #280b41;
 }
 
 @media (max-width: 768px) {
