@@ -55,6 +55,16 @@ header ul li a.active {
     color: #000000;
 }
 
+.titulo
+{
+    text-align: center;
+    font-size: 4rem;
+    color: #660087;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153,.05);
+}
+
 section
 {
   position: relative;
@@ -121,7 +131,7 @@ section img
 
 .sec h2 {
     font-size: 2em; /* Escala menor para telas pequenas */
-    color: #000000;
+    color: #fff5e3;
     margin-bottom: 20px;
 }
 
@@ -135,6 +145,11 @@ section img
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.slides-fade h2
+{
+    color: #c176ce;
 }
   
 .container {
@@ -154,7 +169,7 @@ section img
     align-items: center;
     gap: 8px;
     width:  100%;
-    color: #D41D1D;
+    color: #c176ce;
     text-decoration: none;
 }
   
@@ -181,7 +196,7 @@ section img
 }
    
 .button {
-    background-color: #D41D1D;
+    background-color: #c176ce;
     color: #fff;
     width: 200px;
     height: 40px;
@@ -207,7 +222,7 @@ section img
 }
   
 .active, .dot:hover {
-    background-color: #D41D1D;
+    background-color: #c176ce;
 }
   
 .fade {
