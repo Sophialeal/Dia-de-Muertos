@@ -9,6 +9,7 @@
     </head>
     <body>
         <header>
+
             <ul>
                 <li>
                     <a href="#origen" class="active">Origen</a>
@@ -27,10 +28,16 @@
                 </li>
             </ul>
         </header>
-        <section>
-            <h2 id="text">Dia de Muertos </h2>
+
+        <section class="parallax">
+            <h2 id="text" style="margin-top: -130px">Dia de Muertos </h2>
             <a href="#sec" id="btn">Más información</a>
-            
+            <img src="caveira esquerda abaixo.png" id="caveira1" alt="">
+            <img src="caveira direita abaixo.png" id="caveira2" alt="">
+            <img src="violao esquerdo.png" id="violaoe" alt="">
+            <img src="violao direito.png" id="violaod" alt="">
+            <img src="bandeiras (2).png" id="bandeiras" alt="">
+            <img src="fundo (2).png" id="fundo" alt="">   
         </section>
         <div class="sec" id="sec">
             <h2 id="origen">Origen</h2>
@@ -127,10 +134,33 @@
     window.addEventListener('scroll', function() {
 
         let value = window.scrollY;
-        text.style.marginRight = value * 4 + 'px';
-        text.style.marginTop = value * 1.5 + 'px'
+        text.style.marginRight = value * 2.5 + 'px';
+        text.style.marginTop = value * 2.5 + 'px'
         btn.style.marginTop = value * 1.5 + 'px';
         header.style.top = value * 1.5 + 'px';
     })
+
+    let caveira1 = document.getElementById('caveira1');
+    let caveira2 = document.getElementById('caveira2');
+    let violaoe = document.getElementById('violaoe');
+    let violaod = document.getElementById('violaod');
+    let bandeiras = document.getElementById('bandeiras');
+    let fundo = document.getElementById('fundo');
+     window.addEventListener('scroll', () => {
+        let value = window.scrollY;
+        bandeiras.style.top = value * -1 + 'px';
+        caveira1.style.left = value * 3 + 'px';
+        caveira2.style.left = value * -3 + 'px';
+        violaod.style.left = value * 2.5 + 'px';
+        violaoe.style.left = value *-2.5 + 'px';
+
+    })
+
+    function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.classList.toggle('open'); // Alterna a classe 'open' para mostrar/ocultar o menu
+    }
+
+     
 </script>
 </html>
