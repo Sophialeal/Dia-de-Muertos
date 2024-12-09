@@ -151,7 +151,7 @@ section img
 }
 
 .slider img {
-	flex: 1 0 100%;
+    flex: 1 0 100%;
 	scroll-snap-align: start;
 	object-fit: cover;
 }
@@ -178,6 +178,41 @@ section img
 .slider-nav a:hover {
 	opacity: 1;
 }
+
+.desfile
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.desfile p 
+{
+    padding-right: 100px; 
+    padding-left: 100px;
+}
+
+.desfile video
+{
+    padding-top: 40px;
+    padding-right: 5px; 
+    padding-left: 50px;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.trad
+{
+    padding-right: 120px; 
+    padding-left: 120px;
+}
+
+.brasil
+{
+    padding-right: 120px; 
+    padding-left: 120px;
+    padding-bottom: 50px;
+}
+
 .container
 {
     display: flex;
@@ -198,6 +233,29 @@ section img
 {
     padding-right: 20px; 
     width: 20%;
+    border-radius: 4rem;
+}
+
+.finados
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.finados img
+{
+    padding-right: 20px; 
+    width: 20%;
+    
+}
+
+
+.finados p
+{
+    padding-right: 20px; 
+    width: 50%;
     border-radius: 4rem;
 }
 
